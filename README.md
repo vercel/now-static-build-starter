@@ -2,7 +2,7 @@
 
 This is a simple Next.js app which will be exported as a static HTML app.
 
-~~You need to build the app locally and deploy it using `now`.~~
+~~You need to build the app locally and deploy it using `now`.~~<br/>
 With the help of the `docker`, this app will be built inside `now` and deploy it as a static app.
 
 ## Getting Started

@@ -7,7 +7,6 @@ WORKDIR /app
 # copy local files
 COPY pages /app/pages
 COPY package.json /app
-COPY package-lock.json /app
 
 # build an export the app
 RUN npm install

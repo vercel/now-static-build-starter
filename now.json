@@ -1,3 +1,4 @@
 {
-  "type": "static"
+  "type": "static",
+  "public": true
 }

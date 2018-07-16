@@ -12,12 +12,12 @@ With the help of the `docker`, this app will be built inside `now` and deploy it
 * The Next.js app is configured to [export](https://nextjs.org/docs/#static-html-export) static HTML.
 * Then we've a simple [`Dockerfile`](./Dockerfile) which builds the Next.js app and export the static content into the `/public` directory.
 * The [`now.json`](./now.json) file is used to set the type of this app as `static`. (Otherwise `now` CLI will think this as a typical `docker` app.)
-* Finally, you can deploy this app by simply invoking `now`. (Make sure to use the latest release of `now`)
+* Finally, you can deploy this app by simply invoking `now`. (Make sure to use the latest release of `now`.)
 
 ## Works Best With GitHub
 
-Now's static build support works really great with the GitHub integration.
-So, you can send pull request to the app and Now will build the app and deploy it as a static app for each and every commit.
+Now's static build support works really great with the [GitHub integration](https://zeit.co/github).<br/>
+You can send pull request to the app and Now will build the app and deploy it as a static app for each and every commit.
 
 Checkout [this pull request](https://github.com/zeit/now-static-build-starter/pull/1).
 

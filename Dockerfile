@@ -1,14 +1,6 @@
-FROM mhart/alpine-node
-
-# set the default working directory
-RUN mkdir /app
-WORKDIR /app
-
-# copy local files
-COPY pages /app/pages
-COPY package.json /app
-
-# build an export the app
-RUN npm install
-RUN npm run build
-RUN npm run export -- -o /public
+FROM mhart/alpine-node:10
+WORKDIR /usrc/src
+COPY package.json yarn.lock ./
+RUN yarn
+COPY . .
+RUN yarn build && yarn export -- -o /public

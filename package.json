@@ -1,5 +1,6 @@
 {
   "name": "zeit-static-v2",
+  "license": "MIT",
   "version": "1.0.0",
   "scripts": {
     "dev": "next -p 9999",

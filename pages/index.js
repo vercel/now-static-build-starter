@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default () => (
   <div>
-    Hello Hello
+    Hello Hello Hello
     <br />
     <br />
     Visit the{' '}
